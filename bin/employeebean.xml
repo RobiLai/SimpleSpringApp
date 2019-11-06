@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	   
+	   <bean id="adrs" class="co.edureka.Address">
+	   <property name="city" value="Turin"/>
+	   <property name="state" value="Italy"/>
+	   <property name="zipCode" value="10045"/>
+	   </bean>
+	   
+	   <bean id="emp1" class="co.edureka.Employee" init-method="myInit" destroy-method="myDestroy">
+	   <property name="eid" value="1"/>
+	   <property name="ename" value="Robi Lai"/>
+	   <!-- <constructor-arg ref="adrs"/> -->
+	   <property name="address" ref="adrs"/>
+	   </bean>
+	   
+	   <!--  <bean id="emp2" class="co.edureka.Employee">
+	   <property name="eid" value="2"/>
+	   <property name="ename" value="Simone Bruscolini"/>
+	   <property name="eaddress" value="Dark Boulevard"/>
+	   </bean> -->
+	   </beans>

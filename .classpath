@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-aop-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-asm-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-beans-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-context-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-context-support-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-core-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-expression-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Robi/Library/Spring/spring-jcl-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
